@@ -28,7 +28,7 @@ import java.util.ArrayList;
                 do {
                     String tt = c.getString(4);
                     String trangThai = tt.equals("ChoDuyet") ? " Chờ duyệt" :
-                            tt.equals("DaDuyet") ? " Đã duyệt" : "❌ Từ chối";
+                            tt.equals("DaDuyet") ? " Đã duyệt" : " Từ chối";
                     ds.add(" " + c.getString(2) + " - " + c.getString(5) +
                             "\n   " + c.getString(6) + " tín chỉ | Ngày: " + c.getString(3) +
                             "\n   Trạng thái: " + trangThai);

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <?xml version="1.0" encoding="utf-8"?>
+    <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.example.qldangkychp">
+        <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="QL Đăng ký HP"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+
+            <activity android:name=".DangNhapActivity" android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+            <activity android:name=".DangKyActivity" android:exported="false"/>
+            <activity android:name=".MainActivity" android:exported="false"/>
+            <activity android:name=".sv_DanhSachHocPhan" android:exported="false"/>
+            <activity android:name=".sv_DangKyHocPhan" android:exported="false"/>
+            <activity android:name=".sv_XemDanhSachDangKy" android:exported="false"/>
+            <activity android:name=".qtv_QuanLyHocPhan" android:exported="false"/>
+            <activity android:name=".qtv_DuyetDangKy" android:exported="false"/>
+        </application>
+    </manifest>
+</resources>
